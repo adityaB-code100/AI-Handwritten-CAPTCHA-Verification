@@ -284,44 +284,6 @@ These artifacts make it possible to compare model performance rather than treati
 
 ---
 
-## 📁 Project Structure
-
-```text
-handwritten-Digit/
-│
-├── Project/                        # Flask Web Application
-│   ├── app.py
-│   ├── README.md
-│   ├── requirements.txt
-│   ├── models/                     # EfficientNetV2B0 & MobileNetV2 models (.pth)
-│   ├── templates/                  # Frontend HTML templates
-│   ├── static/                     # CSS, JavaScript & canvas assets
-│   └── utils/                      # Preprocessing, prediction & CAPTCHA logic
-│
-├── digit_model_training/           # PyTorch Training & Evaluation Pipeline
-│   ├── main.py
-│   ├── dataset_loader.py
-│   ├── preprocess.py
-│   ├── models.py
-│   ├── evaluate.py
-│   ├── cross_validation.py
-│   ├── predict.py
-│   ├── utils.py
-│   ├── graphs/
-│   ├── logs/
-│   └── saved_models/
-│
-├── caps/                           # Capital letters dataset (A-Z)
-├── small/                          # Small letters dataset (a-z)
-├── handDigitDataset/               # Handwritten digit dataset (0-9)
-├── OUTPUT/                         # Evaluation panels & output graphics
-│
-├── generate_predictions.py        # Prediction visualization script
-├── Run_on_Colab.ipynb              # Google Colab notebook
-├── requirements.txt                # Consolidated dependencies
-└── README.md                       # Main repository documentation
-```
-
 ---
 
 ## 🚀 Installation
